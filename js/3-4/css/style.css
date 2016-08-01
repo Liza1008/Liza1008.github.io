@@ -1,0 +1,120 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+}
+
+.wrapper {
+	border: 1px solid black;
+	width: 50%;
+	padding: 0 0 50px 70px;
+	margin-top: 50px;
+}
+
+/*Content - start*/
+
+.wrapper__content {
+	display: flex;
+	flex-flow: column nowrap;
+}
+
+.title {
+	text-align: center;
+	padding-top: 15px;
+	font-weight: normal;
+	margin-bottom: 25px;
+}
+
+.wrapper__content--questionSect {
+	display: flex;
+	flex-flow: column nowrap;
+	margin-top: 25px;
+}
+
+.question_title {
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+
+.questionSect_checkbox {
+	margin: 10px 0 0px 25px;
+	padding: 0;
+	display: flex;
+	flex-flow: column nowrap;
+}
+
+.label {
+	margin-bottom: 2px;
+	margin-left: 20px;
+}
+
+.checkbox_label {
+	padding-left: 5px;
+}
+
+.checkbox {
+	width: 13px;
+	height: 13px;
+}
+
+.checkbox + label {
+	cursor: pointer;
+}
+
+.checkbox:not(checked) {
+	
+}
+
+.checkbox:not(checked) + label {
+	position: relative;
+	padding: 0 0 0 25px;
+}
+
+.checkbox:not(checked) + label:before {
+	content: '';
+	position: absolute;
+	top: 2px;
+	left: 0;
+	width: 20px;
+	height: 20px;
+	border: 2px solid #000;
+	background: rgb(204, 227, 245);
+}
+
+.checkbox:not(checked) + label:after {
+	content: '';
+	position: absolute;
+	top: 2px;
+	left: 0;
+	width: 10px;
+	height: 10px;
+	border: 2px solid #000;
+	
+}
+
+.checkbox:checked + label:after {
+	opacity: 1;
+	background: black;
+}
+
+.button {
+	padding: 10px 25px;
+	border: 2px solid black;
+	background-color: rgb(207, 226, 243);
+	width: 260px;
+	color: #000;
+	font-size: 14px;
+	align-self: center;
+	margin-top: 35px;
+}
+
+.button:hover {
+	cursor: pointer;
+	background-color: #00FF7F;
+}
+

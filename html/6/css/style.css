@@ -1,0 +1,939 @@
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html, body  {
+    width: 100%;
+    font-size: 1em;
+}
+
+a {
+	text-decoration: none;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+  min-width: 909px;
+  width: 100%;
+}
+
+header {
+	display: flex;
+	flex-flow: row wrap;
+	width: 909px;
+	flex: 0 0 100%;
+	height: 305px;
+	align-self: center;
+	justify-content: center;
+}
+
+/*CONTACTS - start*/
+
+.top {
+	display: flex;
+	flex-flow: row nowrap;
+}
+
+.phone {
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: center;
+}
+
+.number {
+	color: #5e696d;
+	font-family: 'Arial';
+	font-size: 1.125em;
+	margin-left: 5px;
+	text-decoration: none;
+}
+
+.avtoriz {
+	padding: 5px;
+}
+
+.log_in {
+	width: 495px;
+    height: 25px;
+    background: linear-gradient(to top, #1f6787, #0c3357);
+    border-radius: 3px;
+    margin-left: 20px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    box-shadow: 3px 3px 3px 0px rgba(204,198,204,1);
+}
+
+.log_in a {
+	text-decoration: none;
+}
+
+[type="text"],
+[type="password"] {
+	width: 114px;
+	font-size: 11px;
+	text-transform: lowercase;
+	font-family: 'Lucida Sans Unicode';
+	color: #97a2a6;
+	height: 15px;
+	padding: 5px;
+	margin-top: 5px;
+	border: none;
+}
+
+ .entr {
+	color: #ffffff;
+	font-size: 11px;
+	font-family: 'Lucida Sans Unicode';
+	background: linear-gradient(to top, #1f6787, #0c3357);
+	text-transform: lowercase;
+	line-height: 25px;
+	border: none;
+	margin-left: 5px;
+	padding: 0px;
+	margin-right: 3px;
+	cursor: pointer;
+}
+
+.check_in {
+	color: #ffffff;
+	font-size: 11px;
+	font-family: 'Lucida Sans Unicode';
+	height: 10px;
+	text-transform: lowercase;
+	line-height: 25px;
+	border-left: 1px solid #ffffff;
+	height: 1px;
+	padding-left: 6px;
+}
+
+.pass {
+	color: #bfbfbf;
+	font-size: 12px;
+	font-family: 'Lucida Sans Unicode';
+	text-decoration: underline;
+	margin-left: 15px;
+	text-transform: lowercase;
+	line-height: 25px;
+}
+
+.home {
+	width: 70px;
+    height: 22px;
+    box-shadow: 3px 3px 4px 0px rgba(204,198,204,1);
+    border: 1px solid #d7dcdd;
+    border-radius: 10px;
+    margin-left: 15px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
+
+.home a:hover {
+	background-color: #d0d1d2;
+	border-radius: 10px;
+}
+
+.icon {
+	padding: 5px;
+}
+
+/*CONTACTS - end*/
+
+/*LOGO - start*/
+
+.logo {
+    background: url(../img/logo.png) no-repeat;
+    background-size: cover;
+ 	padding: 60px 0;
+    width: 100%;
+    display: flex;
+    margin-top: 10px;
+}
+
+.zazor {
+    text-decoration: none;
+    display: block;
+    width: 220px;
+    padding-top: 50px;
+}
+
+.zazor_content {
+    align-self: center;
+    background: rgba(0,0,0,0.3);
+    display: flex;
+    flex-direction: column;
+}
+
+.zazor_txt {
+	color: 	#EEEEE0;
+    font-size: 50px;
+    font-family: 'Arial';
+}
+
+.com {
+	color: #EEEEE0;
+    font-size: 25px;  
+    font-family: 'Arial';  
+}
+
+.zazor_content .drive {
+	font-size: 20px;
+    color: #B22222;
+    align-self: flex-end;
+    font-family: 'Arial';
+}
+
+/*LOGO - end*/
+
+/*Search-start*/
+
+.search {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: flex-start;	
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+.search_avto {
+	height: 133px;
+	width: 415px;
+	border-radius: 12px;
+	border: 1px solid #cad2d6;
+	box-shadow: 3px 3px 5px 0px rgba(204,198,204,1);
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+}
+
+.avto_b {
+	color: #154467;
+	font-family: 'Arial';
+	font-size: 10px;
+	margin-left: 90px;
+	margin-top: 2px;
+	font-weight: bold;	
+}
+
+.avto_d {
+	color: #154467;
+	font-family: 'Arial';
+	font-size: 10px;
+	margin-right: 90px;
+	margin-top: 2px;
+	font-weight: bold;	
+}
+
+.avto {
+	color: #154467;
+	font-family: 'Arial';
+	font-size: 12px;
+	margin-left: 5px;
+	margin-top: 2px;
+	font-weight: bold;	
+}
+
+.search_mark_model_form {
+	display: flex;	
+}
+
+.select_name .select_form  {
+	margin: 2px 11px 0 10px;	
+	justify-content: flex-start;
+	flex-direction: column;
+}
+
+.select_form select {	
+	width: 100px;
+	height: 18px;
+	margin-top: 5px;
+	margin-left: 15px;
+	border-top: 2px solid #9c9c9d;
+	border-left: 2px solid #9c9c9d;
+	box-sizing: border-box;
+}
+
+.select_form .year {
+	width: 57px;
+}
+
+.select_name p {
+	line-height: 8px;
+	font-size: 9px;
+	font-weight: bold;
+	width: 64px;
+	margin-top: 10px;
+	color: #000;
+	margin-left: 15px;
+}
+
+.select_name span {
+	font-size: 9px;
+	font-weight: 500;
+	color: #77858b;
+}
+
+.find {
+	margin-left: 330px; 
+}
+
+.find button {
+	color: #154467;
+	font-size: 14px;
+    font-family: 'Arial';
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: uppercase;     
+    border-style: none;
+    background: none;
+}
+
+.search_tires {
+	display: flex;
+	height: 133px;
+	width: 192px;
+	border-radius: 12px;
+	border: 1px solid #cad2d6;
+	box-shadow: 3px 3px 5px 0px rgba(204,198,204,1);
+	margin-left: 15px;
+	display: flex;
+	flex-flow: column;
+	justify-content: flex-start;
+}
+
+.bd {
+	color: #154467;
+	font-family: 'Arial';
+	text-transform: uppercase;
+	font-size: 12px;
+	margin-left: 6px;
+	margin-top: 2px;
+	font-weight: bold;
+}
+
+.seach_tires_size{
+	display: flex;
+}
+
+.select_form_tires_size .select {	
+	width: 50px;
+	height: 18px;
+	margin-top: 5px;
+	margin-left: 7px;
+	border-top: 2px solid #9c9c9d;
+	border-left: 2px solid #9c9c9d;
+	box-sizing: border-box;
+}
+
+.select_form_tires_size .select .inner {	
+	box-sizing: inherit;
+	width: 50px;
+	height: 18px;
+	border-top: 2px solid #9c9c9d;
+	border-left: 2px solid #9c9c9d;
+	box-sizing: border-box;
+}
+
+.select_name_tires_size p {
+	line-height: 25px;
+    text-align: right;
+    font-weight: bold;
+    font-size: 9px;
+    color: #000;
+    margin-left: 10px;
+}
+
+.check_season {
+	margin-top: 9px;
+	margin-left: 5px;
+}
+
+.check_season label {
+	font-family: 'Lucida Sans Unicode', Arial; 	
+	font-size: 10px;
+	color: #000;
+	font-weight: bold;
+}
+
+.check_season input {
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+.find_tires {	
+    margin: 3px;
+    margin-top: 0;
+    text-align: right;
+}
+
+.find_tires button {
+	color: #154467;
+	font-size: 14px;
+    font-family: 'Arial';
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: uppercase;     
+    border-style: none;
+    background: none;
+    margin-top: 3px;
+}
+
+.search_disc {
+	height: 133px;
+	width: 267px;
+	border-radius: 12px;
+	border: 1px solid #cad2d6;
+	box-shadow: 3px 3px 5px 0px rgba(204,198,204,1);
+	margin-left: 15px;
+	display: flex;
+	flex-flow: column;
+	justify-content: flex-start;
+}
+
+.search_d {
+	display: flex;
+	justify-content: flex-start;
+	flex-flow: column wrap;
+	width: 65%;
+	margin: 0 auto;
+	height: 120px;
+}
+
+.search_row {
+	display: flex;
+}
+
+.select_form_d {
+	display: flex;
+	flex-flow: column;
+	justify-content: flex-start; 
+}
+
+.select_form_d select {	
+	width: 55px;
+	height: 18px;
+	margin-left: 18px;
+	margin-top: 14px;
+	margin-right: 29px;
+	border-top: 2px solid #9c9c9d;
+	border-left: 2px solid #9c9c9d;
+	box-sizing: border-box;
+}
+
+.select_form_d .quant {
+	width: 45px;
+	height: 18px;
+}
+
+.select_name_d p {
+	line-height: 8px;
+	font-size: 9px;
+	font-weight: bold;
+	width: 62px;
+	margin-top: 10px;
+	color: #000;
+	margin-left: 15px;
+}
+
+.select_name_d span {
+	font-size: 9px;
+	font-weight: 500;
+	color: #77858b;
+}
+
+.dch {
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: column;	
+	width: 34%;
+	margin: 0 auto;
+	border-left: 1px solid #bdc6ca;
+	margin-top: -10px;
+}
+
+.select_form_dch {
+	display: flex;
+	flex-flow: column nowrap;
+	margin: 0 auto;
+}
+
+.select_form_dch select {	
+	width: 55px;
+	height: 18px;
+	margin-top: 5px;
+	margin-right: 15px;
+	border-top: 2px solid #9c9c9d;
+	border-left: 2px solid #9c9c9d;
+	box-sizing: border-box;
+}
+
+.select_name_dch p {
+	line-height: 9px;
+	font-size: 9px;
+	font-weight: bold;
+	width: 65px;
+	margin-top: 6px;
+	color: #000;
+	margin-left: 10px;
+}
+
+.select_name_dch span {
+	font-size: 9px;
+	font-weight: 500;
+	color: #77858b;
+}
+
+.select_name_dch .dis {
+	white-space: nowrap;
+}
+
+.find_dch {
+	
+    margin: 3px;
+    margin-top: 0;
+    text-align: right;
+}
+
+.find_dch button {
+	color: #154467;
+	font-size: 14px;
+    font-family: 'Arial';
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: uppercase;     
+    border-style: none;
+    background: none;
+}
+
+/*Search-end*/
+
+/*NAVIGATION - start*/
+
+.menu {
+	display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+	width: 909px;
+	box-shadow: 3px 3px 4px 0px rgba(150,148,150,1);
+	height: 35px;	
+	background: linear-gradient(to bottom, #485160, #010101);
+	border-radius: 5px;	
+	margin-top: 10px;
+}
+
+.nav {
+	display: flex;
+	align-items: center;
+	margin-right: 60px;
+	margin-left: 20px;
+}
+
+.nav .link {
+	font-size: 14px;
+	font-family: 'Lucida Sans Unicode';
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #b1bcc0;
+	padding: 7px 18px;
+	border-radius: 30px;
+}
+
+.menu .link:hover {
+	background: linear-gradient(to bottom, #485160, #0c3357);
+}
+
+.order {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	margin-right: 15px;
+	padding: 0;
+}
+
+.basket {
+	margin-right: 10px; 
+}
+
+.digit {
+	font-size: 12px;
+	font-family: 'Arial';
+	color: #0d5a8f;
+	align-self: center;
+	margin: 0 5px 0 5px;
+}
+
+.amount {
+	font-size: 11px;
+	font-family: 'Arial';
+	color: #929b9f;
+	align-self: center;
+}
+
+.sum {
+	font-size: 11px;
+	font-family: 'Arial';
+	color: #8a9296;
+	align-self: center;
+	margin-left: 5px;
+}
+
+/*NAVIGATION - end*/
+
+.main_content {
+  display: flex;
+  flex-direction: column;
+  width: 909px;
+  margin-top: 10px;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+/*SIDEBAR-right - start*/
+
+.sidebar-right {
+	order: 3;
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: flex-start;
+	width: 235px;
+}
+
+.brends {
+	box-shadow: 2px 3px 2px 0px rgba(204,198,204,1);
+ 	border: 1px solid #79878d;
+ 	border-radius: 15px;
+ 	width: 188px;
+ 	height: 25px;
+ 	display: flex;
+ 	flex-flow: row wrap;
+ 	align-self: flex-start;
+ 	margin-left: 5px;
+}
+
+.brends_txt {
+ 	font-family: 'Lucida Sans Unicode';
+ 	font-size: 13px;
+ 	color: #0c3256;
+ 	text-transform: uppercase;
+ 	align-self: center;
+ 	margin-left: 5px;
+}
+
+.brends_img {
+ 	margin-left: 2px;
+}
+
+.tires_r,
+.discs_r {
+ 	border: 1px solid #79878d;
+ 	width: 143px;
+ 	height: 29px;
+ 	margin-left: 15px;
+ 	border-radius: 15px;
+ 	display: flex;
+ 	flex-flow: row wrap;
+ 	margin-top: 15px;
+ 	align-self: flex-start;
+}
+
+.tires_img_r,
+.discs_img_r {
+ 	margin: 2px 4px;
+}
+
+.tires_txt_r,
+.discs_txt_r {
+	text-transform: uppercase;
+	font-family: 'Arial';
+	font-size: 14px;
+	color: #0c3256;
+	align-self: center;
+ 	margin-left: 0px;
+}
+
+.tires_checkbox_r,
+.discs_checkbox_r {
+	display: flex;
+    margin-left: 20px;
+    width: 100px;
+    padding: 0px 10px;
+    align-self: flex-start;
+}
+
+.check_label_r {
+	font-size: 13px;
+	color: #465961;
+	font-family: 'Lucida Sans Unicode';
+}
+
+#tires1_r,
+#tires2_r,
+#tires3_r,
+#discs1_r,
+#discs2_r,
+#discs3_r {
+	margin-top: 10px;
+} 
+
+.choice {
+	background: linear-gradient(to bottom, #1e6383, #0d3458 );
+	border: 1px solid #a7abae;
+	width: 80px;
+	height: 25px;
+	border-radius: 15px;
+	margin-left: 50px;
+	margin-top: 15px;
+	color: #e5e9ea;
+	font-family: 'Arial';
+	font-size: 11px;
+	text-transform: uppercase;
+	padding: 0px;
+}
+
+/*SIDEBAR-right - end*/
+
+/*SIDEBAR-left - start*/
+
+.sidebar-left {
+  	order: 1;
+	display: flex;
+	flex-flow: column nowrap;
+	width: 235px;
+}
+
+.catalog {
+ 	border: 1px solid #79878d;
+    border-radius: 15px;
+    height: 25px;
+    display: flex;
+    flex-flow: row wrap;
+    width: 187px;
+ 	align-self: flex-end;
+ 	margin-right: 5px;
+ 	box-shadow: 2px 3px 2px 0px rgba(204,198,204,1);
+}
+
+.catalog_txt {
+ 	font-family: 'Lucida Sans Unicode';
+ 	font-size: 13px;
+ 	color: #114165;
+ 	text-transform: uppercase;
+ 	align-self: center;
+ 	margin-left: 5px;
+}
+
+.catalog_img {
+ 	margin-left: 2px;
+}
+
+.tires_l,
+.discs_l,
+.bolts {
+ 	border: 1px solid #79878d;
+ 	width: 143px;
+ 	height: 29px;
+ 	border-radius: 15px;
+ 	display: flex;
+ 	flex-flow: row wrap;
+ 	margin-top: 15px;
+ 	align-self: flex-start;
+ 	margin-left: 45px;
+}
+
+.discs_l,
+.bolts {
+	margin-top: 5px;
+}
+
+.tires_img_l,
+.discs_img_l,
+.bolts_img {
+ 	margin: 2px 4px;
+}
+
+.tires_txt_l,
+.discs_txt_l,
+.bolts_txt {
+	text-transform: uppercase;
+	font-family: 'Arial';
+	font-size: 14px;
+	color: #0c3256;
+	align-self: center;
+}
+
+ul {
+	margin-left: 74px;
+}
+
+.tires_marker,
+.discs_marker,
+.bolts_marker {
+	display: flex;
+	margin-top: 5px;
+ }
+
+.tires_marker a,
+.discs_marker a,
+.bolts_marker a {
+	font-size: 13px;
+	color: #465961;
+	font-family: 'Lucida Sans Unicode';
+	text-decoration: none;
+	background: url(../img/marker.png) 3px;
+    background-repeat: no-repeat;
+    line-height: 25px;
+    padding: 1px 0 0 14px;
+}
+
+.tires_marker a:hover,
+.discs_marker a:hover,
+.bolts_marker a:hover {
+	color: #0c3256;
+	font-weight: bold;
+	font-family: 'Lucida Sans Unicode';
+	font-size: 14px;
+	text-decoration: underline;
+	line-height: 25px;
+    background-image: url(../img/marker_hover.png);
+    padding: 1px 0 0 14px;
+}
+
+/*SIDEBAR-left - end*/
+
+/*PRODUCTS - start*/
+
+main {
+  background: linear-gradient(to bottom, #e4e7e8, #93a7b0);  
+  order: 2;
+  width: 50%;
+  padding: 15px 30px 30px 25px;
+  width: 525px;
+  display: flex;
+}
+
+.block_2,
+.block_3 {
+	margin-top: 20px;
+}
+
+.model_1 {
+	background: #ffffff;
+    width: 137px;
+    height: 128px;
+   	border: 1px solid #a4aeb1;
+   	text-align: center;
+   	padding: 5px 10px;
+   	border-radius: 5px;
+}
+
+.second,
+.third {
+	margin-left: 25px;
+}
+
+.model_2,
+.model_3 {
+    background: #ffffff;
+    width: 137px;
+    height: 128px;
+   	border: 1px solid #a4aeb1;
+   	text-align: center;
+   	padding: 5px 10px;
+   	border-radius: 5px;
+}
+   
+ .price {
+    color: #114165;
+    font-family: 'Arial';
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.name {
+	color: #206988;
+	font-size: 15px;
+	font-family: 'Lucida Sans Unicode';
+	text-align: center;
+}
+
+.model {
+	color: #1f2528;
+	font-size: 13px;
+	font-family: 'Lucida Sans Unicode';
+	text-align: center;
+}
+
+.model:hover {
+	color: #FF6347;
+}
+
+.name:hover {
+	color: #FFFAFA;
+}
+
+/*PRODUCTS - end*/
+
+/*FOOTER - start*/
+
+footer {
+  flex: 0 0 100%;
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.logo_brend {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	margin: 40px 0px 40px 0px;
+}
+
+.logo_img {
+	margin-left: 20px;
+}
+
+.bottom_menu {
+	display: flex;
+	flex-flow: column wrap;
+	width: 910px;
+	height: 100px;
+	background-color: #242a3c;
+	padding-top: 15px;
+	color: #bec6c9;
+	align-self: center;
+	align-items: center;
+}
+
+.bottom_menu .link_bottom {
+	text-decoration: none;
+	color: #bec6c9;
+	font-size: 12px;
+	font-family: 'Arial';
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.bottom_menu .link_bottom:hover {
+	color: #52abcb;
+}
+
+.copy {
+	margin-top: 15px;
+	color: #7f4740;
+	font-size: 10px;
+	font-family: 'Arial';
+}
+
+/*FOOTER - end*/

@@ -1,0 +1,31 @@
+body{
+ 	background-color: #efefef;
+ }
+.page{
+	background-color: #ffffff;
+	width:514px;
+	margin-top:3px;
+	margin:0 auto;
+	padding:30px;
+	margin-bottom: 45px;
+	box-shadow:0 0 7px rgba(0,0,0,0.5);
+}
+.image{
+	text-align: center;
+}
+.name{
+	text-align: center;
+}
+p {
+	text-align: left;
+	padding:10px;
+	line-height: 1.5;
+	font-size: 18px;
+}
+ul{
+	font-size: 18px;
+	line-height: 1.5;
+}
+a{
+	text-align: left;	
+}

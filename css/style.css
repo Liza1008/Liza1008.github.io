@@ -1,0 +1,196 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html, body  {
+    height: 100%;
+    font-family: 'facerg';
+}
+
+@font-face {
+    font-family: 'facerg';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/facerg.ttf');
+}
+
+a:hover{
+	text-decoration: underline;
+	color: white;
+}
+
+a:active {
+	text-decoration: none;
+	color: white;
+}
+
+a:visited  {
+	text-decoration: none;
+	color: white;
+}
+
+.back {
+	background-image: url(../img/background.jpg);
+	background-size: cover;
+	height: 655px;
+	width: 100%;
+	display: flex;
+	flex-flow: column wrap;
+}
+
+.html {
+	margin-top: 20px;
+	font-family: 'facerg';
+	font-size: 48px;
+	color: black;
+	color: #F70000;
+	margin-bottom: 20px;
+}
+
+.links_html {
+	display: flex;
+	align-items: center;
+	align-content: flex-start;
+	flex-flow: column nowrap;
+	width: 49%;
+}
+
+.a_html {
+	text-decoration: none;
+	color: white;
+	font-size: 1.25em;
+	line-height: 60px;
+	float: left;
+}
+
+.check {
+	margin-left: 15px;
+	color: green;
+	font-size: 1.35rem;
+	display: inline-block;
+}
+
+.border {
+	border-left: 2px solid white;
+	height: 1562px;
+}
+
+.js {
+	margin-top: 20px;
+	font-family: 'facerg';
+	font-size: 48px;
+	color: black;
+	color: #F70000;
+	margin-bottom: 20px;
+}
+
+.links_js {
+	display: flex;
+	align-items: center;
+	align-content: flex-start;
+	flex-flow: column nowrap;
+	width: 49%;
+
+}
+
+.a_js {
+	text-decoration: none;
+	color: white;
+	font-size: 1.25em;
+	line-height: 45px;
+	float: left;
+}
+
+
+@media(min-width: 320px) and (max-width: 479px) {
+	
+	.back {
+		height: 870px;
+		width: 100%;
+		display: flex;
+		flex-flow: column nowrap;
+	}
+
+	.html {
+		font-size: 1.5rem;
+	}
+
+	.links_html {
+		width: 100%;
+	}
+
+	.a_html {
+		font-size: 0.875rem;
+		line-height: 35px;
+	}
+
+	.border {
+		margin: 20px 0;
+		border-bottom: 2px solid white;
+		height: 0;
+	}
+
+	.js {
+		font-size: 1.5rem;
+	}
+
+	.links_js {
+		width: 100%;
+	}
+
+	.a_js {
+		font-size: 0.875rem;
+		line-height: 35px;
+	}
+}
+
+@media(min-width: 480px) and (max-width: 767px) {
+
+	.back {
+		height: 600px;
+	}
+	
+	.html {
+		font-size: 1.7rem;
+	}
+	
+	.a_html {
+		font-size: 1rem;
+		line-height: 40px;
+	}
+
+	.js {
+		font-size: 1.7rem;
+	}
+
+	.a_js {
+		font-size: 1rem;
+		line-height: 30px;
+	}
+}
+
+@media(min-width: 768px) and (max-width: 959px) {
+
+	.back {
+		height: 650px;
+	}
+
+	.html {
+		font-size: 2.25rem;
+	}
+	
+	.a_html {
+		font-size: 1rem;
+		line-height: 45px;
+	}
+
+	.js {
+		font-size: 2.25rem;
+	}
+
+	.a_js {
+		font-size: 1rem;
+		line-height: 35px;
+	}
+}

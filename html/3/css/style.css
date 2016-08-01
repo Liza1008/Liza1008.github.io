@@ -1,0 +1,169 @@
+@font-face {
+    font-family: 'OpenSans';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/OpenSans.ttf');
+}
+
+li, p {
+	font-family:'OpenSans';
+}
+
+body {
+	background-color: #f9f9f9;
+}
+
+.page {
+	background-color: #ffffff;
+	box-shadow: 0 0 7px rgba(0,0,0,0.5);
+	height: 100%;
+	margin: 0px 153px 0px 153px;
+	padding: 50px 46px 100px 46px;
+	width: 966px;
+}
+
+.logo {
+	margin: 0;
+	padding: 0;
+}
+
+.menu {
+	display: inline-block;
+	float: left;
+}
+
+.bicycle {
+	border: 1px solid #c8c8c8;
+	margin: 41px 0px 0px 46px;
+	padding: 70px 93px;
+}
+
+.bicycle-bord {
+	display: inline-block;
+}
+
+.th_menu li {
+	display: inline-block;
+}
+
+.th_menu {
+	background: linear-gradient(to left, #444343, #5e5e5e);
+	list-style: none;
+	margin-top: 41px;
+}
+
+.th_menu a {	
+	color: #ffffff;
+	display: block;
+	font: "OpenSans";
+	font-size: 14.67px;
+    padding: 13px 7px;
+    text-align: center;
+	text-decoration: none;
+	width: 100px;
+} 
+
+.th_menu a:hover {
+	background-color: #3f3f3f;
+	border-left: 1px solid #838383;
+	border-right: 1px solid #838383;
+	padding: 13px 6px;
+}
+
+.th_menu a:active, 
+		 a:visited: {
+			color: #ffffff;
+			text-decoration: none;
+		}
+
+ .v_menu {
+	border: 1px solid #c8c8c8;
+	border-bottom: 0px;
+	margin-top: 41px;
+	width: 229px;
+}
+
+.v_menu a {
+	border-bottom: 1px solid #c8c8c8;
+	color: #656363;
+	display: block;
+	font: "OpenSans";
+	font-size: 13.33px;
+	padding: 13px;
+    text-decoration: none;
+}
+
+.v_menu a:hover {
+	background-color: #f9f9f9;
+	color: #2c2c2c;		
+	padding-left: 20px;
+	text-decoration: none;
+}
+
+.v_menu a:active, 
+		a:visited {
+			text-decoration: none;
+		}	
+
+
+.bh_menu li {
+	display: inline-block;
+}
+
+.bh_menu {
+	background-color: #e1e1e1;
+	list-style: none;
+	margin-top: 70px;
+ 	width: 966px;
+}
+
+.bh_menu a {
+	color: #2c2c2c;
+	display: block;
+	font: "OpenSans";
+	font-size: 13.33px;
+    padding: 13px 7px;
+    text-align: center;
+	text-decoration: none;
+	width: 100px;
+} 
+
+.bh_menu a:hover { 
+	color: #595959;
+	text-decoration: underline; 
+}
+
+.link { 
+	color: #2c2c2c; 
+}
+
+.bh_menu a:active, 
+		 a:visited: {
+			text-decoration: none;
+		}
+
+a.disabled {
+	cursor: default;
+    pointer-events: none;    
+    white-space: nowrap;
+}
+
+.copy {
+	color: #2c2c2c;
+	display: block;
+	font: "OpenSans";
+	font-size: 13.33px;
+	margin-left: 300px;
+    text-align: center;
+	text-decoration: none;
+	width: 170px;
+} 
+
+.info {	
+	color: #2c2c2c;
+	font: "OpenSans";
+	font-size: 13.33px;
+	line-height: 25px;
+	padding: 20px 5px 0px 310px;
+	text-align: left;
+}
