@@ -66,42 +66,6 @@ body {
 	cursor: pointer;
 }
 
-.checkbox:not(checked) {
-	
-}
-
-.checkbox:not(checked) + label {
-	position: relative;
-	padding: 0 0 0 25px;
-}
-
-.checkbox:not(checked) + label:before {
-	content: '';
-	position: absolute;
-	top: 2px;
-	left: 0;
-	width: 20px;
-	height: 20px;
-	border: 2px solid #000;
-	background: rgb(204, 227, 245);
-}
-
-.checkbox:not(checked) + label:after {
-	content: '';
-	position: absolute;
-	top: 2px;
-	left: 0;
-	width: 10px;
-	height: 10px;
-	border: 2px solid #000;
-	
-}
-
-.checkbox:checked + label:after {
-	opacity: 1;
-	background: black;
-}
-
 .button {
 	padding: 10px 25px;
 	border: 2px solid black;

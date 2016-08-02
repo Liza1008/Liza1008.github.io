@@ -21,7 +21,7 @@ var countUpMsec = function() {
 } 
 var stopwatchMsec = window.setInterval(countUpMsec, 10);
 
-if (stopwatchMse = 100) {
+if (stopwatchMsec = 100) {
 	var countUpSec = function() {
 	var currentTime = parseFloat(sec.textContent);
 		if (currentTime >= 0) {
