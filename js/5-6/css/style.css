@@ -10,13 +10,19 @@ body {
 	background-color: #B0E2FF;
 }
 
+.title {
+	font-size: 36px;
+	align-self: center;
+	margin-bottom: 30px;
+}
+
 .time {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
 
-.time #showtime {
+.time #showTime {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -33,14 +39,15 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	margin-top: 15px;
+	margin-top: 30px;
 }
 
-.#stop {
-	display: none;
+#stop_button {
 }
 
 button {
+	display: flex;
+	justify-content: center;
 	margin-left: 40px;
 	width: 100px;
 	height: 40px;
