@@ -35,14 +35,21 @@ body {
 	background-color: #E0FFFF;
 }
 
+#text {
+	align-self: center;
+	color: black;
+	margin-top: 30px;
+	font-size: 20px;
+	height: 100px;
+	overflow: auto;
+	width: 200px;
+}
+
 .buttons {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	margin-top: 30px;
-}
-
-#stop_button {
 }
 
 button {
