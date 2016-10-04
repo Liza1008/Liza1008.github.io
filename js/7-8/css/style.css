@@ -1,0 +1,140 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Arial', sans-serif;
+}
+
+/*TABS - START*/
+
+.tabs_wrapper {
+    display: flex;
+    height: 400px;
+    align-self: center;
+    margin: 50px auto;
+    border: 1px solid black;
+    padding: 20px;
+    width: 40%
+}
+
+.tabs {
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin-bottom: 10%;
+    overflow: scroll;
+}
+
+.tabs_name {
+    display: flex;
+    flex-flow: row nowrap;
+    border: 1px solid #F5F5F5;
+    background-color: #DCDCDC;
+    padding: 5px;
+    border-radius: 7px;
+    font-size: 17px;
+}
+
+.tabs_name ul {
+    list-style: none;
+    background-color: #DCDCDC;
+}
+
+.tabs_name li {
+    font-family: Tahoma, sans-serif;
+    float: left;
+    padding: 0 10px;
+    margin: 11px 0px 0px 5px;
+    background-color: #F5F5DC;
+    border-radius: 5px 5px 0px 0px;
+    line-height: 38px;
+    border: 1px solid #a3a1a1;
+    border-bottom: none;
+}
+
+#active {
+    display: block;
+}
+
+.tabs_name #active {
+    background-color: #63B8FF;
+}
+
+.tabs_name li:hover {
+    border: 1px solid grey;
+    border-bottom: none;
+    cursor: pointer;
+    background-color: #ccc;
+}
+.tabs__content {
+    width: 90%;
+    padding-left: 5px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.first { 
+    display: none;
+}
+
+.second {
+    display: none;
+}
+
+.third {
+    display: none;
+}
+
+/*TABS - END*/
+
+/*TOOLTIPS - BEGIN*/
+
+.wrapper_tooltips {
+    margin: 0 auto;
+    padding: 5px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin-bottom: 10%;
+    width: 70%;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.tooltips {
+    margin: 10px 0px 10px 5px;
+    display: flex;
+    flex-flow: row nowrap;
+    height: 25px;
+}
+
+span {
+    width: 10%;
+    display: inline-block;
+}
+
+.tooltip {
+    display: flex;
+    z-index: 11;
+    width: 250px;
+    font-size: 15px;
+    border: 1px solid grey;
+    box-shadow: 1px 2px 5px 1px rgba(0,0,0,0.75);
+    opacity: 0;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    visibility: hidden;
+}
+
+button {
+    width: 15%;
+    height: 30px;
+    font-size: 15px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+
