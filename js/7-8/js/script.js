@@ -42,7 +42,7 @@ $thirdTab.on('click', function() {
 
 var $firstName = $('.first_input');
 var $lastName = $('.second_input');
-var $adress = $('.third_input');
+var $address = $('.third_input');
 var $button = $('button');
 
 
@@ -60,7 +60,7 @@ $lastName.hover(function(){$('.tooltip--two').css({
     opacity: 0,
     visibility:'hidden'
 })});
-$adress.hover(function(){$('.tooltip--three').css({
+$address.hover(function(){$('.tooltip--three').css({
     opacity: 1,
     visibility:'visible'
 })}, function() {$('.tooltip--three').css({
