@@ -1,0 +1,56 @@
+<html>
+ <head>
+   <link rel="SHORTCUT ICON" href="../favicon.ico"type="image/x-icon">
+ <title>Східна Україна</title>
+  </head>
+  <BODY VLINK = black leftmargin=0 topmargin=0 marginwidth=0 marginheight=0 border=0 BACKGROUND="../fon.jpg" TEXT = "black" BGPROPERTIES="FIXED">
+<table height="100%" width="100%" border="1">
+<tr height="276">
+	<td colspan="3">
+		<table width="1320"  cellspacing=0 cellpadding=0 marginwidth=0 marginheight=0 border=0>
+		<tr>
+			<td rowspan=2 valign="top"><IMG SRC="kleban.jpg" ALIGN=left></td>
+			<td><IMG SRC="text.jpg" ALIGN=center> </td>
+			<td rowspan=2 valign="top"><IMG SRC="ostrov.jpg"></td>
+		</tr>
+		<tr>
+			<td><center><Font size=+4 color="yellow"><I><a href="http://uk.wikipedia.org/wiki/Східна_Україна" TARGET=blank><img src="text.jpg" >Східна Україна</a></I></Font></center></td>
+		</tr>
+		</table>
+	</td>
+</tr>
+<tr height="30">
+	<td colspan="3"><Font size=+2 color="black"><center>
+	  <A HREF="../index.html">Головна</A>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+      <A HREF="../south/south.html">Південь</A>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+      <A HREF="../west/west.html">Захід</A>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+	  <A HREF="../center/center.html">Центр</A></center></font></td>
+</tr>
+<tr>
+<td width="950"><img class="img2" src="Lavra.jpg" align="left"style="float:left; margin-right:5px;">
+	<a class="black"><B><Font size=+2><I>Свято-Успенська Святогірська Лавра</I></B>
+    <a class="black"><Font size=+0,5>
+    </a><br>
+Святе місце на високому березі Сіверського Донця, якому щорічно приходять вклониться тисячі паломників з усіх куточків землі, де золотоглаві храми, наче зграя білих лебедів, які присіли перепочити серед зелені біля прозорих вод річки, що б продовжити свій піднесений політ крізь століття...
+<a class="little_title" href="lavra.html">читати статтю</a><Br><br><br><br><br><br><br>
+	
+	<br><br><img class="img2" src="sobor.jpg" align="left"style="float:left; margin-right:5px;">
+	<a class="black"><B><Font size=+2><I>Благовіщенський кафедральний собор Харкова</I></B>
+    <a class="black"><Font size=+0,5>
+    </a><br>
+Візитною карткою Харкова давно став один з найпрекрасніших соборів України, вибудуваний у візантійському стилі серед зелені берегів річки Лопань, – Благовіщенський кафедральний собор...
+<a class="little_title" href="sobor.html"> читати статтю</a><br><br><br><br><br><br><br><br><br><br>
+
+    <img class="img2" src="kleban1.jpg" align="left"style="float:left; margin-right:5px;">
+	<a class="black"><B><Font size=+2><I>Регіональний ландшафтний парк "Клебан-Бик"</I></B>
+    <a class="black"><Font size=+0,5>
+    </a><br>
+Вітер, що здіймає хвилі давно зниклого моря. Шум реліктових дерев, які давно звернулися на камінь. Крики рептилій і звірів, які мільйони років тому перетворилися на попіл. А зараз – тиша і спокій заповідного куточка біля однієї з найжвавіших трас Донецького краю, де речові нагадування про минуле народжують спогади того, чого в силу фізичного віку пам‘ятати не можна. Але голос предків крізь століття, крізь забуття тихо шепоче про те що було, і може бути буде знов…..
+<a class="little_title" href="kleban.html">читати статтю</a>
+
+<td width="200"></td>
+</tr>
+
+</table>
+</BODY>
+</html>

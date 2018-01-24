@@ -1,0 +1,57 @@
+<html>
+ <head>
+   <link rel="SHORTCUT ICON" href="../favicon.ico"type="image/x-icon">
+ <title>Центральна Україна</title>
+  </head>
+  <BODY VLINK = black leftmargin=0 topmargin=0 marginwidth=0 marginheight=0 border=0 BACKGROUND="../fon.jpg" TEXT = "black" BGPROPERTIES="FIXED">
+<table height="100%" width="100%" border="1">
+<tr height="276">
+	<td colspan="3">
+		<table width="1320"  cellspacing=0 cellpadding=0 marginwidth=0 marginheight=0 border=0>
+		<tr>
+			<td rowspan=2 valign="top"><IMG SRC="sobor.jpg" ALIGN=left></td>
+			<td><IMG SRC="../text.jpg" ALIGN=center> </td>
+			<td rowspan=2 valign="top"><IMG SRC="pt.jpg"></td>
+		</tr>
+		<tr>
+			<td><center><Font size=+4 color="yellow"><I><a href="http://uk.wikipedia.org/wiki/Центральна_Україна" TARGET=blank>Центральна Україна</a></I></Font></center></td>
+		</tr>
+		</table>
+	</td>
+</tr>
+<tr height="30">
+	<td colspan="3"><Font size=+2 color="black"><center>
+	  <A HREF="../index.html">Головна</A>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+      <A HREF="../south/south.html">Південь</A>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+      <A HREF="../south/south.html">Захід</A>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+	  <A HREF="../east/east.html">Схід</A></center></font></td>
+</tr>
+<tr>
+<td width="950"><img class="img2" src="palace.jpg" align="left" style="float:left; margin-right:5px;">
+	<a class="black"><B><Font size=+2><I>Маріїнський палац</I></B>
+    <a class="black"><Font size=+0,5>
+    </a><br>
+На високому березі Дніпра поряд з Лаврою серед пишної зелені причаїлася блакитна перлина Києва одна з двох офіційних резиденцій Президента України в Києві – Маріїнський (Царський) палац...
+<a class="little_title" href="palace.html">читати статтю</a><Br><br><br><br><br><br><br><br>
+	
+	<br><br><img class="img2" src="museum.jpg" align="left" style="float:left; margin-right:5px;">
+	<a class="black"><B><Font size=+2><I>Полтавський краєзнавчий музей</I></B>
+    <a class="black"><Font size=+0,5>
+    </a><br>
+Перша будівля в яскраво вираженому стилі українського модерну з фасадом, прикрашеним гербами повітових міст Полтавської губернії, під стрілчастим дахом у світло-зеленому обсязі, прикрашеному українським розписом, з білими завитками поручнів де зберігається колекція з більш ніж ста тисяч історичних раритетів...
+<a class="little_title" href="museum.html"> читати статтю</a><br><br><br><br><br><br><br><br><br>
+
+    <img class="img2" src="Hram.jpg" align="left" style="float:left; margin-right:5px;">
+	<a class="black"><B><Font size=+2><I>Вознесенський храмовий комплекс в Переяславі-Хмельницькому</I></B>
+    <a class="black"><Font size=+0,5>
+    </a><br>
+Храм, дарований одному з найдавніших міст Русі великим політиком-реформатором разом з реліквією, що зберігає честь і гідність цілої держави в особі її керівника.
+Гармонійний симбіоз науки, релігії і освіти на маленькому острівці в оточенні білокам‘яних стін, який канув у небуття і не поспішає відроджуватися в тому чистому первозданному вигляді без домішки політики та інтриг...
+<a class="little_title" href="hram.html">читати статтю</a>
+
+<td width="200"></td>
+</tr>
+
+</table>
+</BODY>
+</html>

@@ -1,0 +1,38 @@
+<html>
+ <head>
+ <link rel="SHORTCUT ICON" href="favicon.ico"type="image/x-icon">
+ <title>Подорожуй Україною</title>
+  </head>
+  <BODY VLINK="black" leftmargin=0 topmargin=0 marginwidth=0 marginheight=0 border=0 BACKGROUND="fon.jpg" TEXT = "black" BGPROPERTIES="FIXED">
+<table height="100%" width="1320" border="2"   cellspacing=0 cellpadding=0 marginwidth=0 marginheight=0>
+<tr height="276">
+	<td colspan="2">
+		<table width="1320"  cellspacing=0 cellpadding=0 marginwidth=0 marginheight=0 border=0>
+		<tr>
+			<td rowspan=2 valign="top"><IMG SRC="Lviv.jpg" ALIGN=left></td>
+			<td><IMG SRC="text1.jpg" ALIGN=center> </td>
+			<td rowspan=2 valign="top"><IMG SRC="Kiev.jpg"></td>
+		</tr>
+		<tr>
+		</tr>
+		</table>
+	</td>
+</tr>
+<tr>
+	<td width="115"><center><img src="1.png"></center><br><Font size=+3 color="blue">
+       <A HREF="South/south.html">Південь</A><br><br>
+	   <A HREF="West/west.html">Захід</A><br><br>
+       <A HREF="East/east.html">Схід</A><br><br> 
+	   <A HREF="Center/Center.html">Центр</A>
+	   <br><br><center><img src="1.png"></center>
+	   </td>
+	
+	<td width="950"><Font size=+1,75 color="black" face="Segoe Print"><P ALIGN=CENTER>Україна багата своєю природою: безкраїми полями, горами, морями й озерами, дорогоцінним чорноземом, природними мінералами, - старовинною самобутньою історією, прекрасними архітектурними пам’ятками, визначними науковцями та творцями в різних ділянках культури, суспільними діячами, державними мужами і полководцями. <br>
+	<center><B><Font size=+2,5>Україна – велика країна!</B></center></Font> <br>	<center><IMG SRC="Ukraine.jpg"></center>
+</tr>
+<tr height="30">
+	<td colspan="3" align=center>Кузнецова Є. 9-А, 2014</td>
+</tr>
+</table>
+</BODY>
+</html>
